@@ -35,7 +35,6 @@ class Student:
         else:
             random.choice([self.work, self.study, self.rest])()
 
-# Симуляція року
 student = Student("Іван")
 for _ in range(365):
     student.live_day()
